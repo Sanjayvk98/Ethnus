@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .grid-container{
+            display: inline-grid;
+            column-gap: 25px;
+            padding: 10px;
+            grid-template-columns: auto auto auto;
+            align-items: center;
+            
+        }
+        img{
+            width: 4.8cm;
+            height: 5.5cm;
+        }
+        .grid-items{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 550;
+            border-width: 0.4px;
+            text-align: left;
+            align-items: baseline;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .image{
+            width: 0.5cm;
+            height: 0.5cm;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-left: 6px;
+            vertical-align: bottom;
+            margin-top: 3px;
+            
+        }
+        .text2{
+            font-size: 14px;
+            color:grey;
+            font-weight: 200;
+            margin-bottom: 7px;
+            text-align: top;
+        }
+        button{
+            background-color: dodgerblue;
+            opacity: 0.8;
+            border-color: none;
+            border: 0.5cm;
+            color: white;
+            padding: 0.3cm 0.42cm;
+            font-weight: 700;
+            border-radius: 4px;
+            margin-bottom: 6px;
+            margin-left: 6px;
+            margin-top: 4px;
+        }
+        .text{
+            margin-left: 6px;
+            margin-top: 3px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-items"><img src="Portfolio page/Images/Gustas.jpeg"><br> <span class = "text">Gustas </span><br>
+            <span class="text2"><img src ="Portfolio page/Images/Dog.jpeg" class="image"> 2 Mutual Friends </span><br><button class="button"> Add Friend </button>    <br></div>
+        <div class="grid-items"><img src="Portfolio page/Images/Tuxedo.jpeg"><br> <span class = "text">Berlin </span><br>
+            <span class="text2"><img src ="Portfolio page/Images/Dog.jpeg" class="image"> 3 Mutual Friends</span><br><button class="button"> Add Friend </button>    <br></div>
+        <div class="grid-items"><img src="Portfolio page/Images/Tucker.jpeg"><br> <span class = "text">Tucker </span><br>
+            <span class="text2"><img src ="Portfolio page/Images/Dog.jpeg" class="image"> 4 Mutual Friends</span><br><button class="button"> Add Friend </button>      <br></div>
+    </div>
+</body>
+</html>

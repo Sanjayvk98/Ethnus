@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images and Textbox</title>
+    <style>
+        .flex-container{
+            display: flex;
+            column-gap: 30px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .Thrid img{
+            border-radius: 60%;
+            width: 200px;
+
+        }
+        .Two img{
+            border-radius: 20px;
+            width: 200px;
+        }
+        .One img{
+            width: 200px;
+        }
+        input[type=text]{
+            width: 15%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+            outline: none;
+        }
+        #Win1{
+            width: 45%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 0.1px solid #ccc;
+            border-radius: 28px;
+            box-shadow: 1px 1px gray;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="One"><img src="Portfolio page/Images/Dog.jpeg"></div>
+        <div class="Two"><img src="Portfolio page/Images/Dog.jpeg"></div>
+        <div class="Thrid"><img src="Portfolio page/Images/Dog.jpeg"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="Textb">
+        <div class="tb1">
+            <form>
+            <input type="text" placeholder="Search" id="Win">
+            </form>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="Textb">
+        <div class="tb1">
+            <form>
+            <input type="text" placeholder="Search Google or type a URL" id="Win1">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

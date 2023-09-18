@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Personal Portfolio - Website</title>
+    <link rel="stylesheet" href="CSS\about.css">
+    <script src="https://kit.fontawesome.com/9714e50d6e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-container">
+                <div class="header-text">
+                    <br><br>
+                    <p>Software Developer, Data Scientist</p>
+                    <h1>Hi, I'm <span>Sanjay V</span> <br> From Bengaluru, India.</h1>
+                </div>
+                <div class="header-text-img">
+                    <img src="Images\Camera.jpg">
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------About part--------------------------------- -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src = "Images\Giyu Tomioka(Water Hashira).jpg">
+                </div>
+                <div class="about-col-2"><h1 class="sub-title"> About Me </h1>
+                <p align ="justify">As a recent graduate with a strong academic background in mathematics and programming, I am excited to embark on a career that combines my passion for data science and software development. I have honed my skills in Python, utilizing libraries like NumPy, pandas, and scikit-learn for data analysis and machine learning. I am also adept at data visualization using tools such as Matplotlib and Seaborn.
+
+                    Simultaneously, my programming skills extend to languages like Java, Python, and JavaScript, and I have practical experience in web development, database design, and algorithmic problem-solving. My academic foundation has instilled in me a solid understanding of software engineering principles and best practices.
+                    
+                    I am eager to collaborate with experienced developers and data scientist, learn new technologies, and contribute to building innovative and efficient software solutions. My dedication to continuous learning and adaptability makes me a valuable asset to any development team.                   
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Web Developer</span><br> Web App Development</li>
+                        <li><span>Analyst</span><br> Data Scientist / Analyst</li>
+                        <li><span>Software Developer</span><br>Java Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2023</span><br> B.E from Dr.Ambedkar Institute of Technology</li>
+                        <li><span>2019</span><br> PUC (12th) from KLE Independent PU College</li>
+                        <li><span>2017</span><br> SSLC (10th) from Indian High School</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certifications">
+                    <ul>
+                        <li><span>March 2023 - April 2023</span><br> Walmart Advanced Software Engineering Virtual Experience Program (Forage)</li>
+                        <li><span>March 2023</span><br> Goldman Sachs Software Engineering Virtual Experience (Forage)</li>
+                        <li><span>February 2023 - March 2023</span><br>KPMG Data Analytics Consulting Virtual Internship (Forage)</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------My Services--------------------------------------------------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sequi, alias mollitia illo ipsa quia eligendi. Molestiae ea maxime dolores animi, optio vero libero consequuntur harum facilis neque ullam dolorum?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Scientist / Analyst</h2>
+                    <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sequi, alias mollitia illo ipsa quia eligendi. Molestiae ea maxime dolores animi, optio vero libero consequuntur harum facilis neque ullam dolorum?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java developer</h2>
+                    <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sequi, alias mollitia illo ipsa quia eligendi. Molestiae ea maxime dolores animi, optio vero libero consequuntur harum facilis neque ullam dolorum?</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!--------------------------------------------------------------------------------------Portfolio------------------------------------------------------------------->   
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images\Dairy.jpeg">
+                <div class="layer">
+                <h3> Personal Diary App</h3>
+                <p align="justify">The website that helps people to write,record events,experiences and maintain a diary.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <br>
+            </div>
+            </div>
+            <div class="work">
+                <img src="Images\Wine2.jpg">
+                <div class="layer">
+                <h3> Predication of Wine Quality</h3>
+                <p align="justify">This project was able to predict amount of alcohol, sulphates, sulfur dioxide, residual sugar present in the wine.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <br>
+            </div>
+            </div>
+            <div class="work">
+                <img src="Images\library-3.jpg">
+                <div class="layer">
+                <h3> Library Management App</h3>
+                <p align="justify">This Java project was able to manage books, record the enteries of books used in a Libaray</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <br>
+            </div>
+            </div>
+        </div>
+        <a href ="#" class="btn">See More</a>
+    </div>
+ </div>
+ <!-----------------------------------------------Contact------------------------------------------------------------------------------------->
+ <div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> Gmail: sanjay.vk904@gmail.com </p>
+                <p><i class="fa-solid fa-phone"></i> Phone: +91 7483178282 </p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="Images/My_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Sanj <i class="fa-brands fa-envira"></i> 2023.</p>
+    </div>
+ </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add('active-tab');
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwCYVHjdSnCtTjK4mEypyCo2qkQz5L_ZZybXkKQ0n6AqUB9LEVWxwvQvyT1rzdKvgJV/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =  document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
